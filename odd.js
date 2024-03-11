@@ -1,7 +1,7 @@
-// print even number 1 to 100
-for (let num=0;num<=100;num++){
-    if(num % 2 === 1){
-        console.log(num);
-        ;
+let day =["Sun","mon","tue","wed","thu","fri","sat"];
+
+for( let i=0;i<day.length;i++){
+
+    console.log(day[i]+"day");
 }
-}
+
